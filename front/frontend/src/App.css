@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background-color: #FFFAEE;
+  color: #003195;
+}
+
+h1{
+  color: #003195;
+}
+
+h2, h3, h4, p{
+  color:#4E4800;
+}
+
