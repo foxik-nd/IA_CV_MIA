@@ -1,0 +1,101 @@
+.result-page {
+    font-family: Arial, sans-serif;
+    background-color: #FFFAEE;
+    padding: 20px;
+  }
+  
+  .result-page-header {
+    text-align: left;
+  }
+  
+  .result-page-header h1 {
+    color: #003195;
+  }
+  
+  .result-page-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .cv-section {
+    border: 2px dashed #003195;
+    padding: 20px;
+    width: 60%;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cv-details {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cv-header h2 {
+    font-size: 24px;
+    color: #4E4800;
+  }
+  
+  .cv-header p {
+    font-size: 16px;
+    color: #4E4800;
+  }
+  
+  .cv-body {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .cv-left, .cv-right {
+    width: 45%;
+  }
+  
+  .score-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .score-box {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #FFF;
+  }
+  
+  .score-80 {
+    background-color: #80C341; /* Vert pour 80 ou plus */
+  }
+  
+  .score-60 {
+    background-color: #FFD966; /* Jaune pour 60-79 */
+  }
+  
+  .score-45 {
+    background-color: #F4A642; /* Orange pour 40-59 */
+  }
+  
+  .score-20 {
+    background-color: #E94141; /* Rouge pour moins de 40 */
+  }
+  
+  .recommendations {
+    margin-top: 20px;
+    background-color: #003195;
+    color: #FFF;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  

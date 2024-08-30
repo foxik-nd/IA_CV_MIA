@@ -1,0 +1,16 @@
+.headernav{
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #FFFAEE; 
+    color: #003195; 
+}
+
+.headernav a{
+    text-decoration: none;
+}
+
+.headernav h1{
+    text-align: left;
+    margin-left: 100px;
+    font-weight: 900;
+}
