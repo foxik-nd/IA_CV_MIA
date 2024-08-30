@@ -15,6 +15,7 @@ function HomePage() {
 
   const handleSubmit = async () => {
     if (file) {
+      setLoading(true);
       console.log("Selected file:", file);
   
       const formData = new FormData();
@@ -28,6 +29,8 @@ function HomePage() {
             'Content-Type': 'multipart/form-data',
           },
         });
+
+        console.log(response.data);
   
         const { score, recommendations } = response.data;
         setLoading(false);
@@ -74,7 +77,7 @@ function HomePage() {
               Upload My Resume
             </label>
             <button className="upload-button" onClick={handleSubmit} disabled={loading}>
-              {loading ? 'Processing...' : 'Test'}
+              {loading ? 'Processing...' : 'Approve'}
             </button>
             <p>Upload Your PDF Resume... <br/>We Ensure Your Data Remains Secure And Is Never Stored.</p>
           </div>

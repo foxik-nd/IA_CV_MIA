@@ -98,4 +98,8 @@
     padding: 15px;
     border-radius: 5px;
   }
-  
+
+  .recommendations p, 
+  .recommendations h3 {
+    color: #FFF;
+  }
